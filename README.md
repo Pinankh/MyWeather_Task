@@ -13,6 +13,8 @@ Basic `Kotlin` and knowledge of `HTTP` request by `Retrofit` library are require
 ### Project Description
 We will develop a weather forecast Android Application with MVP architecture. The UI will be as like as above screenshot. There is a `Spinner` with some `City` name. After selection a city user need to hit the `View Weather` button. Then App will send request to Open Weather web API and show the weather information in the UI.
 
+
+
 ### Open Weather API
 We will use [Open Weather Map API](https://openweathermap.org/api) for collecting weather information. To get the real weather information of a city, you need to sign up and get your own `APP ID`. Otherwise you can test the API with their sample `BASE URL` and sample `APP ID` without creating account.
 
@@ -46,3 +48,10 @@ Sync the `Gradle` and run the project. Install APK on your emulator or real devi
 There are some other ways of implementation of `MVVM`. We find most of the MVVM tutorials are covered with `Rx` and `Dagger`. But it's not mandatory to use `Rx` or `Dagger` in MVVM. Even without using `LiveData` you can implement MVVM architecture. The main difference between MVP and MVVM is: `Presenter` is not `Life Cycle` aware. On the otherhand `ViewModel` is `Life Cycle` aware.
 
 For simplicity, I've ignored reactive programming concept (Rx) and `dependency injection` in this project. I have created another [repository of `MVVM` with dependency injection `Dagger 2`](https://github.com/hasancse91/weather-app-android-mvvm-dagger). In future I will create another repository with `Rx`.
+
+<!-- CONTACT -->
+## Contact
+
+Pinankh Patel - pinankhpatel@hotmail.com
+
+Linkedin: https://www.linkedin.com/in/pinankh-patel-19400350/
